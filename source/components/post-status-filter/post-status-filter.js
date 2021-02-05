@@ -7,20 +7,10 @@ const PostStatusFilter = () => {
     <div className="post-status-filter">
       <div className="post-status-filter__btns">
         <div className="post-status-filter__btn">
-          <button
-            type="button"
-            className="post-status-filter__btn post-status-filter__btn_like"
-          >
-            Понравилось
-          </button>
+          <button type="button">Понравилось</button>
         </div>
-        <div className="post-status-filter__btn">
-          <button
-            type="button"
-            className="post-status-filter__btn post-status-filter__btn_all"
-          >
-            Все
-          </button>
+        <div className="post-status-filter__btn active">
+          <button type="button">Все</button>
         </div>
       </div>
     </div>

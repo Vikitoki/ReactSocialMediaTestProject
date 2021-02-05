@@ -4,4 +4,13 @@
 
   border: 2px solid #fff;
   border-radius: 5px;
+
+  &__list {
+    > li {
+      margin-bottom: 15px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 }
