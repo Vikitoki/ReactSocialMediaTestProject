@@ -1,0 +1,53 @@
+.post-add-form {
+  &__form {
+    display: flex;
+    align-items: center;
+  }
+
+  &__input {
+    display: block;
+    flex: 0 1 80%;
+    height: 30px;
+    padding: 21px;
+
+    background: none;
+    border-radius: 5px;
+    border: 2px solid #fff;
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+
+    &::placeholder {
+      color: inherit;
+    }
+  }
+
+  &__btn {
+    flex: 0 1 20%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 0 0 0 10px;
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+
+    background-color: rgb(39, 184, 39);
+    border-radius: 5px;
+    border: 2px solid #fff;
+
+    cursor: pointer;
+    transition: color 0.2s ease, background-color 0.2s ease;
+
+    &:hover {
+      background-color: rgb(26, 161, 26);
+    }
+
+    &:active {
+      background-color: rgb(14, 121, 14);
+    }
+  }
+}

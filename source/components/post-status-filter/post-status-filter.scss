@@ -1,0 +1,53 @@
+.post-status-filter {
+  flex: 0 1 20%;
+  padding: 0 0 0 15px;
+
+  &__btns {
+    display: flex;
+    align-items: center;
+  }
+
+  &__btn {
+    margin-right: 7px;
+
+    button {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 7px 10px;
+
+      text-align: center;
+      font-size: 18px;
+      font-weight: 500;
+      color: #fff;
+
+      background-color: rgb(106, 106, 248);
+      border-radius: 5px;
+      border: 2px solid #fff;
+
+      cursor: pointer;
+      transition: color 0.2s ease, background-color 0.2s ease;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        background-color: rgb(70, 70, 230);
+      }
+
+      &:active {
+        background-color: rgb(50, 50, 206);
+      }
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.active {
+      button {
+        background-color: rgb(85, 179, 195);
+      }
+    }
+  }
+}
